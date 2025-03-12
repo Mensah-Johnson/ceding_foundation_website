@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donate - Ceding Foundation</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="logo">
+          <h1>Ceding Foundation</h1>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="leadership.html">Our Leadership</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+          <li>
+            <a href="donate.html" class="donate-btn active">Donate Now</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="donate-hero">
+        <div class="hero-content">
+          <h1>Make a Difference Today</h1>
+          <p>Your support helps us transform children's lives</p>
+        </div>
+      </section>
+
+      <section class="donate-section">
+        <div class="container">
+          <h2>Donate via MTN Mobile Money</h2>
+          <div class="donate-content">
+            <div class="momo-info">
+              <h3>MTN MoMo Payment Instructions</h3>
+              <ol>
+                <li>Dial *170# on your MTN phone</li>
+                <li>Select "Send Money"</li>
+                <li>
+                  Enter one of our registered numbers:
+                  <ul>
+                    <li><strong>0545256587</strong></li>
+                    <li><strong>0554508594</strong></li>
+                  </ul>
+                </li>
+                <li>Enter the amount you wish to donate</li>
+                <li>Enter your PIN to confirm the transaction</li>
+                <li>Keep the transaction ID for your records</li>
+              </ol>
+            </div>
+
+            <form class="donate-form" id="donateForm">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  pattern="[0-9]{10}"
+                  placeholder="0XXXXXXXXX"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="amount">Donation Amount (GHS)</label>
+                <input
+                  type="number"
+                  id="amount"
+                  name="amount"
+                  min="1"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="transactionId"
+                  >Transaction ID (After Payment)</label
+                >
+                <input
+                  type="text"
+                  id="transactionId"
+                  name="transactionId"
+                  placeholder="Enter MoMo transaction ID"
+                  required
+                />
+              </div>
+              <button type="submit" class="submit-btn">Confirm Donation</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Ceding Foundation</h3>
+            <p>
+              We Live to Serve and We Serve to Live, and transforming lives
+              through compassion and care.
+            </p>
+          </div>
+          <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="leadership.html">Our Leadership</a></li>
+              <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Connect With Us</h3>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2023 Ceding Foundation. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
