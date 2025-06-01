@@ -1,4 +1,37 @@
-# Environment Setup for UploadThing
+# Environment Variables Setup
+
+## For Local Development (.env.local)
+
+```
+CONVEX_DEPLOYMENT=helpful-puma-281
+NEXT_PUBLIC_CONVEX_URL=https://helpful-puma-281.convex.cloud
+UPLOADTHING_TOKEN=your_uploadthing_token_here
+```
+
+## For Production Deployment (Vercel Environment Variables)
+
+```
+CONVEX_DEPLOYMENT=useful-raccoon-658
+NEXT_PUBLIC_CONVEX_URL=https://useful-raccoon-658.convex.cloud
+UPLOADTHING_TOKEN=your_uploadthing_token_here
+```
+
+## Vercel Deployment Instructions
+
+1. **Connect Repository**: Connect your GitHub repository (`samcuxx/ceding_foundation_website`) to Vercel
+2. **Set Environment Variables** in Vercel Dashboard:
+
+   - `CONVEX_DEPLOYMENT=useful-raccoon-658`
+   - `NEXT_PUBLIC_CONVEX_URL=https://useful-raccoon-658.convex.cloud`
+   - `UPLOADTHING_TOKEN=your_actual_uploadthing_token`
+
+3. **Deploy**: Vercel will automatically build and deploy
+
+## Important Notes
+
+- The `convex/_generated/` files are auto-generated during build
+- Make sure to use the production Convex URL for live deployment
+- Keep your UploadThing token secure and add it in Vercel's environment variables
 
 ## Required Environment Variables
 
