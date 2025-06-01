@@ -158,11 +158,11 @@ export default function AdminDashboard() {
       position: leader.position,
       image: leader.image,
       bio: leader.bio,
-      socialLinks: leader.socialLinks || {
-        facebook: "",
-        twitter: "",
-        instagram: "",
-        linkedin: "",
+      socialLinks: {
+        facebook: leader.socialLinks?.facebook || "",
+        twitter: leader.socialLinks?.twitter || "",
+        instagram: leader.socialLinks?.instagram || "",
+        linkedin: leader.socialLinks?.linkedin || "",
       },
     });
     setEditingLeader(leader);

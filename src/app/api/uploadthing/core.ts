@@ -1,8 +1,6 @@
 import { createUploadthing, type FileRouter } from "uploadthing/next";
 
-const f = createUploadthing({
-  token: process.env.UPLOADTHING_TOKEN,
-});
+const f = createUploadthing();
 
 // FileRouter for your app, can contain multiple FileRoutes
 export const ourFileRouter = {

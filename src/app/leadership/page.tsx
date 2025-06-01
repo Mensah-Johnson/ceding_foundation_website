@@ -57,7 +57,7 @@ export default function Leadership() {
                     <p className="position">{leader.position}</p>
                     <p className="bio">{leader.bio}</p>
                     <div className="social-links">
-                      {leader.socialLinks?.linkedin && (
+                      {/* {leader.socialLinks?.linkedin && (
                         <a
                           href={leader.socialLinks.linkedin}
                           aria-label="LinkedIn"
@@ -66,8 +66,8 @@ export default function Leadership() {
                         >
                           <i className="fab fa-linkedin"></i>
                         </a>
-                      )}
-                      {leader.socialLinks?.twitter && (
+                      )} */}
+                      {/* {leader.socialLinks?.twitter && (
                         <a
                           href={leader.socialLinks.twitter}
                           aria-label="Twitter"
@@ -76,7 +76,7 @@ export default function Leadership() {
                         >
                           <i className="fab fa-twitter"></i>
                         </a>
-                      )}
+                      )} */}
                       {leader.socialLinks?.facebook && (
                         <a
                           href={leader.socialLinks.facebook}
