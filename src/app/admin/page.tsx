@@ -523,7 +523,7 @@ export default function AdminDashboard() {
                           >
                             <option value="education">Education</option>
                             <option value="healthcare">Healthcare</option>
-                            <option value="community">Community</option>
+                            <option value="community">Member</option>
                             <option value="events">Events</option>
                           </select>
                         </div>

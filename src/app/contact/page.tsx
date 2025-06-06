@@ -110,11 +110,11 @@ export default function Contact() {
                         Office Address
                       </h3>
                       <p className="text-gray-600">
-                        123 Community Street
+                        Kumasi-Mampomteng
                         <br />
-                        Accra, Ghana
+                        Kumasi, Ghana
                         <br />
-                        GA-123-4567
+                        
                       </p>
                     </div>
                   </div>
@@ -143,9 +143,9 @@ export default function Contact() {
                         Phone
                       </h3>
                       <p className="text-gray-600">
-                        +233 (0) 123 456 789
+                        +233 (0) 545256587
                         <br />
-                        +233 (0) 987 654 321
+                        +233 (0) 554508594
                       </p>
                     </div>
                   </div>

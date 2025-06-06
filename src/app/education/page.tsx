@@ -80,41 +80,7 @@ export default function Education() {
           </div>
         </section>
 
-        <section className="success-stories">
-          <div className="container">
-            <h2>Success Stories</h2>
-            <div className="stories-grid">
-              <div className="story-card">
-                <img
-                  src="https://images.unsplash.com/photo-1544717305-2782549b5136"
-                  alt="Student Success Story"
-                />
-                <div className="story-content">
-                  <h3>Kwame's Journey</h3>
-                  <p>
-                    "Thanks to Ceding Foundation's support, I was able to
-                    complete my education and am now pursuing my dream of
-                    becoming a teacher."
-                  </p>
-                </div>
-              </div>
-              <div className="story-card">
-                <img
-                  src="https://images.unsplash.com/photo-1560523159-6b681a1e7555"
-                  alt="Student Success Story"
-                />
-                <div className="story-content">
-                  <h3>Ama's Achievement</h3>
-                  <p>
-                    "The mentorship program helped me gain confidence and
-                    improve my academic performance significantly."
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
+     
         <section id="contact" className="contact-section">
           <div className="container">
             <h2>Get in Touch</h2>
@@ -122,7 +88,7 @@ export default function Education() {
               <div className="contact-info">
                 <div className="contact-item">
                   <i className="fas fa-map-marker-alt"></i>
-                  <p>123 Hope Street, Cityville, ST 12345</p>
+                  <p>WAB,22,WADIE ADWUMAKASE,NEAR METHODIST CHURCH,KUMASI,Kwabre East,ASHANTI,Ghana</p>
                 </div>
                 <div className="contact-item">
                   <i className="fas fa-phone"></i>

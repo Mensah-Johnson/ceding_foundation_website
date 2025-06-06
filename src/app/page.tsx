@@ -39,12 +39,7 @@ export default function Home() {
                   giving and public education on social responsibility.
                 </p>
                 <p>
-                  Since our inception, we have conducted numerous impactful
-                  initiatives, including outreach programs in the streets of
-                  Kejetia, our foundation's launch event, and recent donations
-                  supporting widows in our community. Each activity demonstrates
-                  our commitment to making a meaningful difference in people's
-                  lives.
+                Since our inception, we have undertaken several impactful initiatives that reflect our dedication to creating positive change. These include community outreach programs in the streets of Kejetia, an educational tour, our official foundation launch event, and recent donations aimed at supporting widows within our community. Each of these activities underscores our unwavering commitment to making a meaningful and lasting difference in the lives of those we serve.
                 </p>
                 <p>
                   Our enduring mission is to nurture and empower young lives,
@@ -64,7 +59,7 @@ export default function Home() {
                   <p>Years of Service</p>
                 </div>
                 <div className="stat-item">
-                  <h3>50+</h3>
+                  <h3>20+</h3>
                   <p>Partner Organizations</p>
                 </div>
               </div>
@@ -129,11 +124,11 @@ export default function Home() {
               <div className="contact-info">
                 <div className="contact-item">
                   <i className="fas fa-map-marker-alt"></i>
-                  <p>123 Hope Street, Cityville, ST 12345</p>
+                  <p>KUMASI MAMPONTENG</p>
                 </div>
                 <div className="contact-item">
                   <i className="fas fa-phone"></i>
-                  <p>+233 545256587/ +233 554508596</p>
+                  <p>+233 545256587/ +233 554508594</p>
                 </div>
                 <div className="contact-item">
                   <i className="fas fa-envelope"></i>

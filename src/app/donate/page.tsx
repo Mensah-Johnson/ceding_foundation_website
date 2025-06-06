@@ -37,7 +37,7 @@ export default function Donate() {
                   <li>Dial your Mobile Money USSD code</li>
                   <li>Select "Send Money" or "Transfer"</li>
                   <li>
-                    Enter our donation number: <strong>0545256587</strong>
+                    Enter our donation number: <strong>0556690799</strong>
                   </li>
                   <li>Enter your donation amount</li>
                   <li>Complete the transaction with your PIN</li>
@@ -68,34 +68,12 @@ export default function Donate() {
                   the lives of those we serve.
                 </p>
 
-                <div className="donation-amounts">
-                  <h4>Suggested Donation Amounts:</h4>
-                  <div className="amount-grid">
-                    <div className="amount-card">
-                      <h5>GHS 50</h5>
-                      <p>Provides school supplies for one child</p>
-                    </div>
-                    <div className="amount-card">
-                      <h5>GHS 100</h5>
-                      <p>Covers medical expenses for basic healthcare</p>
-                    </div>
-                    <div className="amount-card">
-                      <h5>GHS 200</h5>
-                      <p>Funds educational programs for a month</p>
-                    </div>
-                    <div className="amount-card">
-                      <h5>GHS 500</h5>
-                      <p>Supports a family with essential needs</p>
-                    </div>
-                  </div>
-                </div>
-
                 <div className="impact-info">
                   <h4>Your Impact</h4>
                   <p>
                     With your support, we have been able to reach over 1000
                     children and families across Ghana. Your donation directly
-                    funds our programs in education, healthcare, and community
+                    funds our programs in education, healthcare, and 
                     development.
                   </p>
                 </div>

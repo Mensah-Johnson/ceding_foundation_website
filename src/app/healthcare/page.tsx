@@ -98,7 +98,7 @@ export default function Healthcare() {
               <div className="contact-info">
                 <div className="contact-item">
                   <i className="fas fa-map-marker-alt"></i>
-                  <p>123 Hope Street, Cityville, ST 12345</p>
+                  <p>WAB,22,WADIE ADWUMAKASE,NEAR METHODIST CHURCH,KUMASI,Kwabre East,ASHANTI,Ghana</p>
                 </div>
                 <div className="contact-item">
                   <i className="fas fa-phone"></i>

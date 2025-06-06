@@ -15,7 +15,7 @@ export default function Gallery() {
     { value: "all", label: "All" },
     { value: "education", label: "Education" },
     { value: "healthcare", label: "Healthcare" },
-    { value: "community", label: "Community" },
+    { value: "community", label: "Members" },
     { value: "events", label: "Events" },
   ];
 
