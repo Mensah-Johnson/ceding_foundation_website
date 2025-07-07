@@ -127,7 +127,7 @@ export const createInitialAdmin = mutation({
     // Check if admin already exists
     const existingAdmin = await ctx.db
       .query("users")
-      .withIndex("by_email", (q) => q.eq("email", "admin@cedingfoundation.org"))
+      .withIndex("by_email", (q) => q.eq("email", "cedingfoundation@gmail.com"))
       .first();
 
     if (existingAdmin) {
@@ -136,7 +136,7 @@ export const createInitialAdmin = mutation({
 
     const adminId = await ctx.db.insert("users", {
       name: "Foundation Admin",
-      email: "admin@cedingfoundation.org",
+      email: "cedingfoundation@gmail.com",
       password: "admin123", // Change this in production!
     });
 

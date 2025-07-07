@@ -174,9 +174,9 @@ export default function Contact() {
                         Email
                       </h3>
                       <p className="text-gray-600">
-                        info@cedingfoundation.org
+                        cedingfoundation@gmail.com
                         <br />
-                        admin@cedingfoundation.org
+                        cedingfoundation@gmail.com
                       </p>
                     </div>
                   </div>
