@@ -39,7 +39,7 @@ export default function Home() {
                   giving and public education on social responsibility.
                 </p>
                 <p>
-                Since our inception, we have undertaken several impactful initiatives that reflect our dedication to creating positive change. These include community outreach programs in the streets of Kejetia, an educational tour, our official foundation launch event, and recent donations aimed at supporting widows within our community. Each of these activities underscores our unwavering commitment to making a meaningful and lasting difference in the lives of those we serve.
+                Since our establishment, we have implemented numerous transformative initiatives that demonstrate our commitment to positive social change. Our comprehensive programs include targeted community outreach in Kejetia, educational support initiatives providing both material resources and financial assistance to students in urban and rural schools, and our milestone foundation launch event. We have also expanded our impact through dedicated widow support programs and our Rural Community Development Initiative, which delivers essential supplies, facilitates National Health Insurance Scheme (NHIS) registration, promotes educational advancement, and shares messages of hope and empowerment. These strategic interventions exemplify our unwavering dedication to creating sustainable, meaningful change in the lives of those we serve.
                 </p>
                 <p>
                   Our enduring mission is to nurture and empower young lives,
